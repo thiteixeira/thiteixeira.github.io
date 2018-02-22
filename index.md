@@ -81,5 +81,5 @@ Das, S.; **Teixeira, T.**; Hasan, S. F. Research Issues related to Trilateration
 * VLSI Design Principles
 
 ## Misc
-[Useful networking programs](./misc.md)
-[Useful Linux commands](./misc.md)
+- [Useful networking programs](./misc.md)
+- [Useful Linux commands](./misc.md)
