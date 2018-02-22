@@ -63,4 +63,4 @@ Das, S.; **Teixeira, T.**; Hasan, S. F. Research Issues related to Trilateration
 ## Relevant Coursework
 
 
-## Misc
+## [Misc](./misc.md)
