@@ -189,20 +189,80 @@ $ dig +trace -x 128.119.8.148
 ```
 
 #### Whois
+Client for the whois directory service. whois searches for an object in a RFC 3912 database.
 
+```
+$ whois -h whois.ra.net 128.119.8.148
+```
 
 #### Host
+DNS lookup utility.
+```
+$ host umass.edu
+  umass.edu has address 128.119.8.148
+  umass.edu mail is handled by 10 race-4.oit.umass.edu.
+  umass.edu mail is handled by 10 race-3.oit.umass.edu.
+  umass.edu mail is handled by 10 race-2.oit.umass.edu.
+  umass.edu mail is handled by 10 race-1.oit.umass.edu.
+```
 
+##### CNAME records
+```
+$ host -t CNAME google.com
+```
 
 #### Route
+Show / manipulate the IP routing table.
+```
+$ route -n
+  Kernel IP routing table
+  Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+  0.0.0.0         172.16.0.1      0.0.0.0         UG    0      0        0 eth0
+  10.10.1.0       0.0.0.0         255.255.255.0   U     0      0        0 eth1
+  172.16.0.0      0.0.0.0         255.240.0.0     U     0      0        0 eth0
+```
+
+#### Ip Tables
+Administration tool for IPv4/IPv6 packet filtering and NAT
 
 
 #### TCP Version
-
+Print the route packets trace to network host (default is cubic)
+```
+$ cat /proc/sys/net/ipv4/tcp_congestion_control
+  cubic
+```
 
 ## A collection of useful Linux commnands with examples
 #### Cat
+Concatenate files and print on the standard output.
+```
+$ echo "Hello, world!" > filename.txt
+$ cat filename.txt 
+  Hello, world!
+```
 #### Tail
+Output the last part of files.
+```
+$ tail -f fileName.txt
+```
 #### Awk
+Pattern scanning and processing language.
+```
+$ awk '{ sum += $6; n++ } END { if (n > 0) print sum / n; }'
+```
 #### Sed
+Stream editor for filtering and transforming text.
+```
+$ for file in *; do mv $file `echo $file | sed -e "s/n1/n2/"`; done
+```
+##### Get IP address from `ifconfig`
+```
+$ ifconfig eth0 | awk '/inet addr:/ { print $2 }' | sed 's/addr://'
+  10.10.1.1
+```
 #### Watch
+Execute a program periodically, showing output fullscreen.
+```
+$ watch "ls -lrt | tail -10"
+```
