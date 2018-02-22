@@ -15,7 +15,7 @@ Amherst, MA 01003 USA
 
 ## Industry Experience
 #### Raytheon BBN Technologies
-
+The GENI research testbed comprises of dozens of research universities across the US, enabling deep programmability and customization of research experiments. During this internship, I developed the new NDN tutorial, which is used in GENI educational events. In addition, I created the How-To page on Delay Tolerant Networking (DTN) for the GENI platform. Finally, assisted the GENI Summer Camp in Boston, MA and the GENI/Fed-4-Fire Summer Camp in Ghent, Belgium (remotely).
 
 ## Research Experience
 #### Offloading Cellular Traffic from Next-Generation Cellular Base Stations
@@ -29,9 +29,11 @@ In future Internet architectures, customers will be able to choose network servi
 
 ## Other Projects
 #### Android
+[Collection of Android Apps (in progress)](https://github.com/thiteixeira/Android-Projects)
 
 #### GENI Research Testbed
-
+[Named-Data Networking Tutorial](http://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/jacks/GettingStarted_PartII_ndn/Procedure)</br>
+[Delay-Tolerant Networking How-To](http://groups.geni.net/geni/wiki/HowTo/DelayTolerantNetworking)
 #### Indoor navigation using fingerprinting
 
 #### VLSI
