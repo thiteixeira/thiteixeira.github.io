@@ -6,9 +6,9 @@ My research focus on [Information-Centric Networking (ICN)](https://trac.ietf.or
 ## Contact
 Email: tteixeira at umass dot edu
 
-Knowles Engineering Building 204\
-University of Massachusetts\
-151 Holdsworth Way\
+Knowles Engineering Building 204<br/>
+University of Massachusetts<br/>
+151 Holdsworth Way<br/>
 Amherst, MA 01003 USA
 
 ## Industry Experience
