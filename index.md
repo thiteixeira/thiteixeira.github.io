@@ -72,7 +72,6 @@ Das, S.; **Teixeira, T.**; Hasan, S. F. Research Issues related to Trilateration
 * Cellular Networks
 * Computer Algorithms
 * Computer Networks
-* Computer Networks
 * High-Speed Broadband Networks
 * Microwave Engineering
 * Mobile Communications
