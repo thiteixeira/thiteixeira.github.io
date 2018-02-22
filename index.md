@@ -80,4 +80,6 @@ Das, S.; **Teixeira, T.**; Hasan, S. F. Research Issues related to Trilateration
 * Trustworthy Computing
 * VLSI Design Principles
 
-## [Misc](./misc.md)
+## Misc
+[Useful networking programs](./misc.md)
+[Useful Linux commands](./misc.md)
