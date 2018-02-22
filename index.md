@@ -35,7 +35,7 @@ In future Internet architectures, customers will be able to choose network servi
 [Collection of Android Apps (in progress)](https://github.com/thiteixeira/Android-Projects)
 
 #### GENI Research Testbed
-[Named-Data Networking Tutorial](http://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/jacks/GettingStarted_PartII_ndn/Procedure)</br>
+[Named-Data Networking Tutorial](http://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/jacks/GettingStarted_PartII_ndn/Procedure)<br/>
 [Delay-Tolerant Networking How-To](http://groups.geni.net/geni/wiki/HowTo/DelayTolerantNetworking)
 #### Indoor navigation using fingerprinting
 
