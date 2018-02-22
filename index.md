@@ -6,7 +6,10 @@ My research focus on [Information-Centric Networking (ICN)](https://trac.ietf.or
 #### [Resume](https://people.umass.edu/tteixeira/ThiagoTeixeira_2018-02.pdf)
 
 ## Contact
-Email: tteixeira at umass dot edu
+[Email](mailto:tteixeira@umass.edu)<br/>
+[LinkedIn](https://www.linkedin.com/in/tteixeira1/)<br/>
+[Google Scholar](https://scholar.google.com/citations?user=TwEjy2cAAAAJ&hl=en)
+
 
 Knowles Engineering Building 204<br/>
 University of Massachusetts<br/>
