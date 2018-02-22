@@ -3,7 +3,7 @@ I received my bachelors degree in Electrical Engineering with concentration in N
 
 My research focus on [Information-Centric Networking (ICN)](https://trac.ietf.org/trac/irtf/wiki/icnrg), Wireless Communications, and Internet Economics.
 
-[Resume](https://people.umass.edu/tteixeira/ThiagoTeixeira_2018-02.pdf)
+#### [Resume](https://people.umass.edu/tteixeira/ThiagoTeixeira_2018-02.pdf)
 
 ## Contact
 Email: tteixeira at umass dot edu
