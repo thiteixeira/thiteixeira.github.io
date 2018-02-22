@@ -3,7 +3,7 @@ I received my bachelors degree in Electrical Engineering with concentration in N
 
 My research focus on [Information-Centric Networking (ICN)](https://trac.ietf.org/trac/irtf/wiki/icnrg), Wireless Communications, and Internet Economics.
 
-[Resume](https://people.umass.edu/tteixeira/Thiago_Teixeira.pdf)
+[Resume](https://people.umass.edu/tteixeira/ThiagoTeixeira_2018-02.pdf)
 
 ## Contact
 Email: tteixeira at umass dot edu
@@ -63,6 +63,21 @@ Das, S.; **Teixeira, T.**; Hasan, S. F. Research Issues related to Trilateration
 
 
 ## Relevant Coursework
-
+* Advanced Data Communication
+* Cellular Networks
+* Computer Algorithms
+* Computer Networks
+* Computer Networks
+* High-Speed Broadband Networks
+* Microwave Engineering
+* Mobile Communications
+* Probability and Random Process
+* RF Circuits
+* Security Engineering
+* Statistical Inference and Random Processes
+* Telephony Networks
+* The Business Foundations Series for Scientists and Engineers
+* Trustworthy Computing
+* VLSI Design Principles
 
 ## [Misc](./misc.md)
