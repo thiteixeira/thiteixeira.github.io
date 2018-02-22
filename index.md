@@ -28,6 +28,8 @@ In future Internet architectures, customers will be able to choose network servi
 ## Other Projects
 #### Android
 
+#### GENI Research Testbed
+
 #### Indoor navigation using fingerprinting
 
 #### VLSI
@@ -36,21 +38,21 @@ Exploring Voltage Scaling Techniques in Embedded Processors Hardware Monitors (l
 ## Publications
 #### 2018
 #### 2017
-Marentes, A.; Yang, JK.; **Teixeira, T.**, Wolf, T. A Marketplace for Interdomain Routing and Its Economic Outcomes. In CoNEXT 2017 Student Workshop, Seoul, S. Korea, December 2017.\
+Marentes, A.; Yang, JK.; **Teixeira, T.**, Wolf, T. A Marketplace for Interdomain Routing and Its Economic Outcomes. In CoNEXT 2017 Student Workshop, Seoul, S. Korea, December 2017.
 
-**Teixeira, T.**; Marentes, A.; Wolf, T. Economic Incentives in Virtualized Access Networks. In Proc. of IEEE International Conference on Communications (ICC), Paris, France, May 2017.\
+**Teixeira, T.**; Marentes, A.; Wolf, T. Economic Incentives in Virtualized Access Networks. In Proc. of IEEE International Conference on Communications (ICC), Paris, France, May 2017.
 #### 2016
-Abdelhadi, A.; Rechia, F.; Narayanan, A.; **Teixeira, T.**; Lent, R.; Benhaddou, D.; Lee, H.; Clancy, T.,Position Estimation of Robotic Mobile Nodes in Wireless Testbed using GENI. In Proc. of IEEE International Systems Conference (SysCon), Orlando, FL, April 2016\
+Abdelhadi, A.; Rechia, F.; Narayanan, A.; **Teixeira, T.**; Lent, R.; Benhaddou, D.; Lee, H.; Clancy, T.,Position Estimation of Robotic Mobile Nodes in Wireless Testbed using GENI. In Proc. of IEEE International Systems Conference (SysCon), Orlando, FL, April 2016
 
-**Teixeira, T.**; Zink, M. Evaluating Information-Centric Networks in Disconnected, Intermittent, Low-Bandwidth Environments. In ACM/IEEE Symposium on Architectures for Networking and Communications Systems (ANCS), Santa Clara, CA, March 2016\
+**Teixeira, T.**; Zink, M. Evaluating Information-Centric Networks in Disconnected, Intermittent, Low-Bandwidth Environments. In ACM/IEEE Symposium on Architectures for Networking and Communications Systems (ANCS), Santa Clara, CA, March 2016
 
-**Teixeira, T.**; Hasan, S. F. Assessing Electromagnetic Radiation in our Environment. In IEEE Potentials, March 2016 \
+**Teixeira, T.**; Hasan, S. F. Assessing Electromagnetic Radiation in our Environment. In IEEE Potentials, March 2016 
 
 #### 2015
-Marentes, A.; **Teixeira, T.**; Wolf, T. Exploring Economic Dynamics in an Internet with Service Choices. In Proc. of IEEE International Conference on Communications (ICC), London, UK, June 2015 \
+Marentes, A.; **Teixeira, T.**; Wolf, T. Exploring Economic Dynamics in an Internet with Service Choices. In Proc. of IEEE International Conference on Communications (ICC), London, UK, June 2015 
 
 #### 2014
-Hu, K.; Wolf, T.; **Teixeira, T.**; Tessier, R., System-Level Security for Network Processors with Hardware Monitors. In Proc. of 51th Design Automation Conference (DAC), San Francisco, CA, June 2014.\
+Hu, K.; Wolf, T.; **Teixeira, T.**; Tessier, R., System-Level Security for Network Processors with Hardware Monitors. In Proc. of 51th Design Automation Conference (DAC), San Francisco, CA, June 2014.
 
 #### 2012
 Das, S.; **Teixeira, T.**; Hasan, S. F. Research Issues related to Trilateration and Fingerprinting Methods: An Experimental Overview of Wi-Fi Positioning System. In IJRWS Wireless Advancements – Green Initiative, 2012.
