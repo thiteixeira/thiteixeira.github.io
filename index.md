@@ -33,7 +33,7 @@ In future Internet architectures, customers will be able to choose network servi
 #### Indoor navigation using fingerprinting
 
 #### VLSI
-Exploring Voltage Scaling Techniques in Embedded Processors Hardware Monitors (link to pdf)[https://people.umass.edu/tteixeira/vlsi_Finalreport.pdf]
+Exploring Voltage Scaling Techniques in Embedded Processors Hardware Monitors [link to pdf](https://people.umass.edu/tteixeira/vlsi_Finalreport.pdf)
 
 ## Publications
 #### 2018
