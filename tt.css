@@ -22,7 +22,7 @@
 		font-size:1.2em;
 	}
 
-	.item-publication{
+	#publication-list{
 		list-style-type: none;
 		font-size:1.2em;
 		padding:10px 0px 0px 0px;
