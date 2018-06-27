@@ -70,6 +70,37 @@
 		padding:5px 0px 0px 0px;
 	}
 
+        #description{
+		font-size:1.2em;
+		list-style-type:none;
+		padding:10px 0px 0px 0px;
+	}
+        #simulations{
+		font-size:1.2em;
+		list-style-type:none;
+		padding:10px 0px 0px 0px;
+	}
+        #results{
+		font-size:1.2em;
+		list-style-type:none;
+		padding:10px 0px 0px 0px;
+	}
+        #publications{
+		font-size:1.2em;
+		list-style-type:none;
+		padding:10px 0px 0px 0px;
+	}
+        #code{
+		font-size:1.2em;
+		list-style-type:none;
+		padding:10px 0px 0px 0px;
+	}
+        #contact{
+		font-size:1.2em;
+		list-style-type:none;
+		padding:10px 0px 0px 0px;
+	}
+
 	.date {
 	  color: #223fbb;
 	  font-size: medium;
