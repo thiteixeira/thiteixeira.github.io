@@ -71,9 +71,10 @@
 	}
 
         #description{
+		margin-top:30px;
+		margin-bottom:10px;
 		font-size:1.2em;
 		list-style-type:none;
-		padding:10px 0px 0px 0px;
 	}
         #simulations{
 		font-size:1.2em;
