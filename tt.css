@@ -101,6 +101,12 @@
 		list-style-type:none;
 	}
 
+        #construction{
+		background-color:white;
+		margin-top:60px;
+		margin-bottom:60px;
+	}
+
 	.date {
 	  color: #223fbb;
 	  font-size: medium;
@@ -109,11 +115,6 @@
 	  padding-right: 1em;
 	  padding-left: 3em;
 	  vertical-align: 12.5%;
-	}
-
-	.customcontainer {
-	  padding-top: 60px;
-	  padding-bottom: 40px;
 	}
 
 </style>
