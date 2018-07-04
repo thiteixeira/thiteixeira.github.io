@@ -288,6 +288,41 @@
               </code>
           </pre>
       </figure>
+      <b>Full reverse DNS lookup -- Map an IP addr to a name</b>
+      <figure class=highlight>
+          <pre>
+              <code class=language-bash data-lang=bash>
+                $ dig +trace -x 128.119.8.148
+              </code>
+          </pre>
+      </figure>
+      <b>Canonical Hostname (CNAME) with DIG</b>
+      <figure class=highlight>
+          <pre>
+              <code class=language-bash data-lang=bash>
+                $ dig CNAME umass.edu
+
+		; <<>> DiG 9.10.3-P4-Ubuntu <<>> CNAME umass.edu
+		;; global options: +cmd
+		;; Got answer:
+		;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5576
+		;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+		;; OPT PSEUDOSECTION:
+		; EDNS: version: 0, flags:; MBZ: 0005 , udp: 512
+		;; QUESTION SECTION:
+		;umass.edu.			IN	CNAME
+
+		;; AUTHORITY SECTION:
+		umass.edu.		5	IN	SOA	grid-soa.it.umass.edu. hostmaster.umass.edu. 2015013097 7200 3600 1209600 600
+
+		;; Query time: 24 msec
+		;; SERVER: 127.0.1.1#53(127.0.1.1)
+		;; WHEN: Mon Jul 02 17:08:27 EDT 2018
+		;; MSG SIZE  rcvd: 97
+              </code>
+          </pre>
+      </figure>
       <!-- Whois -->
       <h4>Whois</h4>
       <p>client for the whois directory service. whois searches for an object in a RFC 3912 database.</p>
