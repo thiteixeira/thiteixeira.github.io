@@ -158,6 +158,20 @@
               </code>
           </pre>
       </figure>
+      <figure class=highlight>
+          <pre>
+              <code class=language-bash data-lang=bash>
+               # filtering ACK TCP flags
+	       $ sudo tcpdump 'tcp[13] & 16 != 0'
+	       
+	       # filtering TCP SYN flags
+	       $ sudo tcpdump 'tcp[13] & 2 != 0'
+	       
+	       # filtering TCP FIN flags
+	       $ sudo tcpdump 'tcp[13] & 1 != 0'
+              </code>
+          </pre>
+      </figure>
       <!-- Tshark -->
       <h4>Tshark</h4>
       <p>Dump and analyze network traffic.</p>
