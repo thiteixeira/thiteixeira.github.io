@@ -138,7 +138,17 @@
 			  </tr>
 			</table>
 		      <li><b>Vehicular Cloud</b></li>
-			<p>TBC</p>
+			<p>Following the findings in <a href="https://dl.acm.org/citation.cfm?id=2979684">Streaming content from a vehicular cloud</a>, 
+			we implemented the concept of a vehicular cloud where utility vehicles serve as data mules to assist end-users in fetching content. 
+			In our implementation, nodes move according to the Manhattan-Grid model. First, the vehicular nodes randomly request contents from 
+			the backhaul network to fill up their caches (i.e., a node will sequentially request as many contents as it can store in its cache, 
+			with the first requested content being randomly selected), then consumer nodes request contents from the vehicular cloud. 
+			If that request times out, pedestrians retransmit to the cellular network. In this scenario, the only communication allowed is 
+			device-to-vehicle and device-to-infrastructure. We vary the number of utility vehicles from 25 to 100 nodes in increments of 25, 
+			while the number of pedestrians remain static at 25 nodes. Moreover, we evaluate the effects that different cache sizes on the 
+			vehicular node has on the network. The expectation is that as the number of vehicular nodes increase, pedestrians will be able 
+			to fetch more contents from them. Similarly, as vehicle's cache size increase, the pool of contents available to pedestrians 
+			will be greater.</p>
 		    </ul>
 		    <h3>Large crowds</h3>
 		    <p>Another common application where the infrastructure is pressured is large crowds, e.g., protests, sport events,
