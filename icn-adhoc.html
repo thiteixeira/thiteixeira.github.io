@@ -199,10 +199,20 @@
 		    <h3>Large crowds</h3>
 		    <p>Another common application where the infrastructure is pressured is large crowds, e.g., protests, sport events,
 		       or any other event where a swarm of users, much greater than what the network was provisioned to, move to 
-		       a specific area.</p>
+		       a specific area. For instance, in <a href="https://dl.acm.org/citation.cfm?id=2936314.2814205">The next-generation in-stadium experience</a>, 
+		       the authors reported that terabytes of data were transfered via cellular networks (AT\&T, Verizon, and Sprint) by in-stadium 
+		       fans during the 2015 Superbowl</p>
 		    <ul>
 		      <li><b>Sport events</b></li>
-		        <p>TBC</p>
+		        <p>We developed a scenario where spectators at an arena are able to watch on-demand replays, reducing the load on the 
+			infrastructure. Our scenario comprises of 200 users in one section of a stadium. Users can communicate with the LTE base 
+			station (in this case a femtocell) as well as other users in the same stands to fetch contents. The replay videos have a 
+			total duration of 20 seconds each, segmented into 2-second chunks (following the <a href="https://ieeexplore.ieee.org/document/6077864/">MPEG-DASH standard</a>). 
+			The chunk size is 100 kB. We leave the question of fetching different quality levels for future work. In total, five replay 
+			videos are requested by all users, with the video segments being requested in order. However, each user will start requesting 
+			the videos at a random time within a short interval (10 seconds). The reason for this interval is two-fold: in reality, 
+			not all spectators request videos at the same time; second, by using slightly different times, nodes can take advantage of 
+			caching.</p>
 		    </ul>
             </div>
 	</div>
