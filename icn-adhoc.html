@@ -152,7 +152,49 @@
 			while the number of pedestrians remain static at 25 nodes. Moreover, we evaluate the effects that different cache sizes on the 
 			vehicular node has on the network. The expectation is that as the number of vehicular nodes increase, pedestrians will be able 
 			to fetch more contents from them. Similarly, as vehicle's cache size increase, the pool of contents available to pedestrians 
-			will be greater.</p>
+			will be greater. The following table summarizes the simulation parameters:</p>
+			<table class="table table-hover">
+			  <tr>
+			    <th>Parameter</th>
+			    <th>Value</th>
+			  </tr>
+			  <tr>
+			    <td>Pedestrian nodes</td>
+			    <td>25</td>
+			  </tr>
+			  <tr>
+			    <td>Vehicular nodes</td>
+			    <td>25, 50, 75, and 100</td>
+			  </tr>
+			  <tr>
+			    <td>Area</td>
+			    <td>500 x 500 m2</td>
+			  </tr>
+		          <tr>
+			    <td>Radio Access Technology</td>
+			    <td>IEEE 802.11g and LTE</td>
+			  </tr>
+			  <tr>
+			    <td>Communication Range</td>
+			    <td>100 m (WiFi), to base station (LTE)</td>
+			  </tr>
+			  <tr>
+			    <td>Node's cache</td>
+			    <td>50, 100, 150, 200 kB</td>
+			  </tr>
+			  <tr>
+			    <td>Cache Policy</td>
+			    <td>LRU</td>
+			  </tr>
+			  <tr>
+			    <td>Data Payload</td>
+			    <td>1 kB</td>
+			  </tr>
+			  <tr>
+			    <td>Total Contents</td>
+			    <td>1,000</td>
+			  </tr>
+			</table>
 		    </ul>
 		    <h3>Large crowds</h3>
 		    <p>Another common application where the infrastructure is pressured is large crowds, e.g., protests, sport events,
