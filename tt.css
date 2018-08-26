@@ -118,4 +118,9 @@
 	  vertical-align: 12.5%;
 	}
 
+	.carousel-inner > .item > img {
+	  width:50%;
+	  height: auto;
+	}
+
 </style>
