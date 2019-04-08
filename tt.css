@@ -20,52 +20,10 @@
 	font-size:1.2em;
 }
 
-#publication-list{
+#publication-list, #education-list, #award-list, #career-list, #research-list, #project-list, #course-list, #misc-list {
 	list-style-type: none;
 	font-size:1.2em;
 	padding:10px 0px 0px 0px;
-}
-
-#education-list{
-	font-size:1.2em;
-	list-style-type:none;
-	padding:10px 0px 0px 0px;
-}
-
-#award-list{
-	font-size:1.2em;
-	list-style-type:none;
-	padding:5px 0px 0px 0px;
-}
-
-#career-list{
-	font-size:1.2em;
-	list-style-type:none;
-	padding:5px 0px 0px 0px;
-}
-
-#research-list{
-	font-size:1.2em;
-	list-style-type:none;
-	padding:5px 0px 0px 0px;
-}
-
-#project-list{
-	font-size:1.2em;
-	list-style-type:none;
-	padding:5px 0px 0px 0px;
-}
-
-#course-list{
-	font-size:1.2em;
-	list-style-type:none;
-	padding:5px 0px 0px 0px;
-}
-
-#misc-list{
-	font-size:1.2em;
-	list-style-type:none;
-	padding:5px 0px 0px 0px;
 }
 
 #description{
@@ -75,27 +33,7 @@
 	list-style-type:none;
 }
 
-#simulations{
-	font-size:1.2em;
-	list-style-type:none;
-}
-
-#results{
-	font-size:1.2em;
-	list-style-type:none;
-}
-
-#publications{
-	font-size:1.2em;
-	list-style-type:none;
-}
-
-#code{
-	font-size:1.2em;
-	list-style-type:none;
-}
-
-#contact{
+#simulations, #results, #publications, #code, #contact{
 	font-size:1.2em;
 	list-style-type:none;
 }
