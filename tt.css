@@ -132,24 +132,13 @@
 	border-radius: 50%;
 }
 
-.fa {
+.fa, .ai {
 	font-size: 50px;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
-
-.ai {
-	font-size: 50px;
-	width: 50px;
-	text-align: center;
-	text-decoration: none;
-}
-
-.ai:hover {
+.fa:hover, .ai:hover {
   opacity: 0.7;
 }
