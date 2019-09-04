@@ -20,7 +20,7 @@
 	font-size:1.2em;
 }
 
-#publication-list, #education-list, #award-list, #career-list, #research-list, #project-list, #course-list, #misc-list {
+.publication-list, .education-list, .award-list, .career-list, .research-list, .project-list, .course-list, .misc-list {
 	list-style-type: none;
 	font-size:1.2em;
 	padding:10px 0px 0px 0px;
