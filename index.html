@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Thiago Teixeira's Professional Web Page">
     <meta name="keywords" content="PhD,Linux,Networking,TCP/IP,DNS">
@@ -10,65 +11,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thiago Teixeira</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link rel="stylesheet" type="text/css" href="tt.css">
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74710912-1"></script>
     <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-     gtag('config', 'UA-74710912-1');
+        gtag('config', 'UA-74710912-1');
     </script>
 
-</head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="tt.css">
 
-<body data-spy="scroll" data-target=".navbar-collapse">
-    <div class="navbar navbar-default navbar-fixed-top">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand fixed-top" id="navbar">
         <div class="container">
-            <div class="navbar-header">
-                <a href="" class="navbar-brand">Thiago Teixeira</a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" , data-target=".navbar-collapse">
-                    <span class="sr-only"> Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-            </div>
-            <div id="spy-scroll-id" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#profile">Home</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#industry">Industry</a></li>
-                    <li><a href="#teaching">Teaching</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#publication">Publications</a></li>
-                    <li><a href="#courses">Relevant Course Work</a></li>
-                    <li><a href="#award">Awards</a></li>
+            <a class="navbar-brand" href="#">Thiago Teixeira</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#introduction">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#industry">Industry</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teaching">Teaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publication">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Relevant Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#award">Awards</a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </div>
+    </nav>
+
     <div class="container" id="profile">
-        <div class="device-md hidden-xs"> </div>
-        <div class="col-md-12">
+        <div class="row">
             <div class="col-md-6">
-                <div id="carouselSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
                     <div class="carousel-inner">
-                        <div class="item active">
+                        <div class="carousel-item active">
                             <img class="d-block w-100" src="fig/profile1.jpg" alt="First slide">
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img class="d-block w-100" src="fig/profile2.jpg" alt="Second slide">
                         </div>
-                        <div class="item">
+                        <div class="carousel-item">
                             <img class="d-block w-100" src="fig/profile3.jpg" alt="Third slide">
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
             <div class="col-md-6" id="introduction">
@@ -87,10 +111,18 @@
                 </p>
                 <table class="table">
                     <tr>
-                        <td><a href="https://people.umass.edu/tteixeira/ThiagoTeixeira_2019-01.pdf" class="ai ai-cv-square" alt="Resume"></a></td>
-                        <td><a href="https://scholar.google.com/citations?user=TwEjy2cAAAAJ&hl=en" class="ai ai-google-scholar-square ai-3x" alt="Google Scholar"></a></td>
-                        <td><a href="https://www.linkedin.com/in/tteixeira1/" class="fa fa-linkedin" alt="LinkedIn"></a></td>
-                        <td><a href="https://github.com/thiteixeira/" class="fa fa-github" alt="GitHub"></a></td>
+                        <td>
+                            <i class="fas fa-file-user"></i><a href="https://people.umass.edu/tteixeira/ThiagoTeixeira_2019-01.pdf"></a>
+                        </td>
+                        <td>
+                            <i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=TwEjy2cAAAAJ&hl=en"></a>
+                        </td>
+                        <td>
+                            <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/tteixeira1/"></a>
+                        </td>
+                        <td>
+                            <i class="fab fa-github"></i><a href="https://github.com/thiteixeira/"></a>
+                        </td>
                     </tr>
                 </table>
             </div>
@@ -100,24 +132,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="center title" id="education">Education</h2>
-                <ul>
-                    <li class="education-list">Ph.D. in <a href="http://ece.umass.edu/">Computer Engineering, University of Massachusetts Amherst</a></li>
-                    <li class="education-list">B.S. in <a href="http://www.unisinos.br/global/en/">Electrical Engineering (Networks), Unisinos University</a></li>
-                    <li class="education-list">Exchange student <a href="http://www.skku.edu">Sungkyunkwan University</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="center title" id="industry">Industry Experience</h2>
+                <h2 id="industry">Industry Experience</h2>
                 <ul>
                     <li class="career-list"><a href="https://brightcove.com"><b>Brightcove Inc.</b></a> <i>"Software Engineer Intern"</i>, 01/2019 - Present
                         <br>
                         <p>Brightcove is the leader in OVP services. As a software engineer intern at the Gallery team, my main contributions are in the QA and development processes.
-                        The technologies used range from Ruby, JavaScript, Jenkins, Jira, and Groovy.</p>
+                            The technologies used range from Ruby, JavaScript, Jenkins, Jira, and Groovy.</p>
                     </li>
                     <li class="career-list"><a href="https://www.raytheon.com/ourcompany/bbn"><b>Raytheon BBN Technologies</b></a> <i>"Graduate Research Intern"</i>, 05/2016 - 08/2016
                         <br>
@@ -127,10 +147,24 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="center title" id="teaching">Teaching Experience</h2>
+                <h2 id="education">Education</h2>
+                <ul>
+                    <li class="education-list">Ph.D. in <a href="http://ece.umass.edu/">Computer Engineering, University of Massachusetts Amherst</a></li>
+                    <li class="education-list">B.S. in <a href="http://www.unisinos.br/global/en/">Electrical Engineering (Networks), Unisinos University</a></li>
+                    <li class="education-list">Exchange student <a href="http://www.skku.edu">Sungkyunkwan University</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="teaching">Teaching Experience</h2>
                 <ul>
                     <li class="education-list"><a href="http://www.ecs.umass.edu/ece241/">Data Structures</a> (Python) as T.A.</li>
                     <li class="education-list"><a href="http://www.ecs.umass.edu/ece/ece122/">Introduction to Programming</a> (Java) as T.A.</li>
@@ -140,10 +174,11 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="center title" id="research">Research Experience</h2>
+                <h2 id="research">Research Experience</h2>
                 <ul>
                     <li class="research-list"><b><a href="./icn-adhoc.html">Offloading Cellular Traffic from Next-Generation Cellular Base Stations</a> </b></li>
                     The soaring number of mobile devices, coupled with the increase in traffic, is posing a significant challenge to cellular networks. Network operators have to deploy more base stations to cope with the load and user's expectations; however, this approach increases complexity and it's hard to manage. We propose M2M communication that applies Information-Centric Networking (ICN) to fetch content from nearby peers prior to sending the request to the RAN. In this ongoing research, we expect to successfully fetch partial contents from the MANET, ultimately offloading base stations.
@@ -155,119 +190,129 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="center title" id="projects">Other Projects</h2>
+                <h2 id="projects">Other Projects</h2>
                 <ul>
-                    <li class=project-list><b>Slack Bot</b></li>
-                    <a href="https://github.com/thiteixeira/boston-info">Boston City Services Slack Bot</a>
-                    <li class="project-list"><b>Android </b></li>
-                    <a href="https://github.com/thiteixeira/Android-Projects">A couple of Android Apps</a> (with screenshots)
-                    <li class="project-list"><b>Crawling the Web</b></li>
-                    <a href="https://github.com/thiteixeira/Python/blob/master/web_scraping/webCrawler.py">Python Web Crawler</a> (Fetching Boston's Craigslist apartment rentals under $2000 using Python <em>requests</em> and <em>bs4</em> libraries)
-                    <li class="project-list"><b>Social Media</b></li>
-                    <a href="https://github.com/thiteixeira/Python/blob/master/server.py">Facebook Messenger SimpleBot</a> (Uses Flask and Ngrok)</br>
-                        <a href="https://github.com/thiteixeira/Python/blob/master/web_scraping/twitterScraper.py">Getting Twitter's trending topics</a>
-                    <li class="project-list"><b>FinTech </b></li>
-                    <a href="https://github.com/thiteixeira/Python/tree/master/finTech">Python code to get the S&P 500 companies using the Robinhood API</a></br>
-                        <li class="project-list"><b>GENI Research Testbed </b></li>
-                        <a href="http://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/jacks/GettingStarted_PartII_ndn/Procedure">Named-Data Networking Tutorial</a></br>
-                            <a href="http://groups.geni.net/geni/wiki/HowTo/DelayTolerantNetworking">Delay-Tolerant Networking How-To</a>
-                        <li class="project-list"><b>Indoor navigation using fingerprinting </b></li>
-                        <a href="https://www.people.umass.edu/tteixeira/Percept_Final_Report.pdf">Indoor navigation</a>
-                        <li class="project-list"><b>VLSI </b></li>
-                        <a href="https://www.people.umass.edu/tteixeira/vlsi_Finalreport.pdf">Exploring Voltage Scaling Techniques in Embedded Processors Hardware Monitors </a>
-                        <li class="project-list"><b>Networking tools </b></li>
-                        <a href="https://tt-network-blog.herokuapp.com/">A sample blog deployed on Heroku</a>
-                        <li class="project-list"><b>Travel App </b></li>
-                        A travel app written in Node.js using the Deutsche Bahn API to find trips between German cities
+                    <li class=project-list>
+                        <strong>Slack Bot</strong>
+                        <p><a href="https://github.com/thiteixeira/boston-info">Boston City Services Slack Bot</a></p>
+                    </li>
+                    <li class="project-list">
+                        <strong>Android </strong>
+                        <p><a href="https://github.com/thiteixeira/Android-Projects">A couple of Android Apps</a> (with screenshots)</p>
+                    </li>
+                    <li class="project-list">
+                        <strong>Crawling the Web</strong>
+                        <p><a href="https://github.com/thiteixeira/Python/blob/master/web_scraping/webCrawler.py">Python Web Crawler</a> (Fetching Boston's Craigslist apartment rentals under $2000 using Python <em>requests</em> and <em>bs4</em> libraries)</p>
+                    </li>
+                    <li class="project-list">
+                        <strong>Social Media</strong>
+                        <p><a href="https://github.com/thiteixeira/Python/blob/master/server.py">Facebook Messenger SimpleBot</a> (Uses Flask and Ngrok)</p>
+                        <p><a href="https://github.com/thiteixeira/Python/blob/master/web_scraping/twitterScraper.py">Getting Twitter's trending topics</a></p>
+                    </li>
+                    <li class="project-list">
+                        <strong>FinTech </strong>
+                        <p><a href="https://github.com/thiteixeira/Python/tree/master/finTech">Python code to get the S&P 500 companies using the Robinhood API</a></p>
+                    </li>
+                    <li class="project-list">
+                        <strong>GENI Research Testbed</strong>
+                        <p><a href="http://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/jacks/GettingStarted_PartII_ndn/Procedure">Named-Data Networking Tutorial</a></p>
+                        <p><a href="http://groups.geni.net/geni/wiki/HowTo/DelayTolerantNetworking">Delay-Tolerant Networking How-To</a></p>
+                    </li>
+                    <li class="project-list">
+                        <strong>Indoor navigation using fingerprinting</strong>
+                        <p><a href="https://www.people.umass.edu/tteixeira/Percept_Final_Report.pdf">Indoor navigation</a></p>
+                    </li>
+                    <li class="project-list">
+                        <strong>VLSI </strong>
+                        <p><a href="https://www.people.umass.edu/tteixeira/vlsi_Finalreport.pdf">Exploring Voltage Scaling Techniques in Embedded Processors Hardware Monitors </a></p>
+                    </li>
+                    <li class="project-list">
+                        <strong>Networking tools</strong>
+                        <p><a href="https://tt-network-blog.herokuapp.com/">A sample blog deployed on Heroku</a></p>
+                    </li>
+                    <li class="project-list">
+                        <strong>Travel App </strong>
+                        <p>A travel app written in Node.js using the Deutsche Bahn API to find trips between German cities</p>
+                    </li>
+
                 </ul>
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="center title" id="publication">Publications</h2>
-                <ul>
-                    <b>2019</b>
+                <h2 id="publication">Publications</h2>
+                    <strong>2019</strong>
                     <ul>
                         <li class="publication-list">
-                            <b>Thiago Teixeira</b>, Rajvardhan Deshmukh, and Michael Zink. <u>Cross-Layer Assisted Forwarding Strategy for Opportunistic Communication</u> . In <em>WoWMoM.</em> Washington, DC, June 2019.
+                            <strong>Thiago Teixeira</strong>. <u>Service Competition and Data-Centric Protocols for Internet Access</u>. University of Massachusetts Amherst, September 2019.
+                        </li>
+                        <li class="publication-list">
+                            <strong>Thiago Teixeira</strong>, Rajvardhan Deshmukh, and Michael Zink. <u>Cross-Layer Assisted Forwarding Strategy for Opportunistic Communication</u>. In <em>WoWMoM.</em> Washington, DC, June 2019.
                         </li>
                     </ul>
-                    <b>2018</b>
+                    <strong>2018</strong>
                     <ul>
                         <li class="publication-list">
-                            <b>Thiago Teixeira</b>, Rajvardhan Deshmukh, and Michael Zink. <u>Increasing Network Resiliency via Data-Centric Offloading</u> . In <em>EN4PPDR, a workshop of WiMOB.</em> Cyprus, October 2018.
+                            <strong>Thiago Teixeira</strong>, Rajvardhan Deshmukh, and Michael Zink. <u>Increasing Network Resiliency via Data-Centric Offloading</u>. In <em>EN4PPDR, a workshop of WiMOB.</em> Cyprus, October 2018.
                         </li>
                     </ul>
-                    <b>2017</b>
+                    <strong>2017</strong>
                     <ul>
                         <li class="publication-list">
-                            Andres Marentes, Jie-Kai Yang, <b>Thiago Teixeira</b>, and Tilman Wolf. <u>A Marketplace for Interdomain Routing and Its Economic Outcomes</u> . In <em>ACM CoNEXT Student Workshop.</em> Seoul, KOR, December 2017. <a href="papers/abs-esdx.pdf">[pdf]</a>
+                            Andres Marentes, Jie-Kai Yang, <strong>Thiago Teixeira</strong>, and Tilman Wolf. <u>A Marketplace for Interdomain Routing and Its Economic Outcomes</u>. In <em>ACM CoNEXT Student Workshop.</em> Seoul, KOR, December 2017. <a href="papers/abs-esdx.pdf">[pdf]</a>
                         </li>
                         <li class="publication-list">
-                            <b>Thiago Teixeira</b>, Andres Marentes, and Tilman Wolf. <u>Economic Incentives in Virtualized Access Networks</u> . In <em>IEEE International Conference on Communications ICC</em> , Paris, FRA, May 2017. <a href="https://ieeexplore.ieee.org/document/7996957/">[pdf]</a>
-                            <br>
+                            <strong>Thiago Teixeira</strong>, Andres Marentes, and Tilman Wolf. <u>Economic Incentives in Virtualized Access Networks</u>. In <em>IEEE International Conference on Communications ICC</em> , Paris, FRA, May 2017. <a href="https://ieeexplore.ieee.org/document/7996957/">[pdf]</a>
                         </li>
                     </ul>
-                </ul>
-                <ul>
-                    <b>2016</b>
+                    <strong>2016</strong>
                     <ul>
                         <li class="publication-list">
-                            <b>Thiago Teixeira</b>, Andres Marentes, and Tilman Wolf. <u>Enabling Internet Economics Research of Future Internet Architectures using GENI</u> . In <em>GENI NICE Workshop of CoNext 2016</em> . Irvine, CA, December 2016.
+                            <strong>Thiago Teixeira</strong>, Andres Marentes, and Tilman Wolf. <u>Enabling Internet Economics Research of Future Internet Architectures using GENI</u>. In <em>GENI NICE Workshop of CoNext 2016</em> . Irvine, CA, December 2016.
                         </li>
                         <li class="publication-list">
-                            Ahmed Abdelhadi, Felipe Rechia, Arvind Narayanan, <b>Thiago Teixeira</b>, Ricardo Lent, Driss Benhaddou, Hyunwoo Lee, and T Charles Clancy. <u>Position Estimation of Robotic Mobile Nodes in Wireless Testbed using GENI</u> . In <em>Proc. IEEE Systems Conference SysCon</em> , Orlando, FL, April 2016.
-                            <br>
+                            Ahmed Abdelhadi, Felipe Rechia, Arvind Narayanan, <strong>Thiago Teixeira</strong>, Ricardo Lent, Driss Benhaddou, Hyunwoo Lee, and T Charles Clancy. <u>Position Estimation of Robotic Mobile Nodes in Wireless Testbed using GENI</u>. In <em>Proc. IEEE Systems Conference SysCon</em> , Orlando, FL, April 2016.
                         </li>
                         <li class="publication-list">
-                            <b>Thiago Teixeira</b>, and Michael Zink. <u>Evaluating Information-Centric Networks in Disconnected, Intermittent, Low-Bandwidth Environments</u> . In <em>ACM/IEEE Symposium on Architectures for Networking and Communications Systems ANCS, Santa Clara, CA, March 2016.</em>
-                            <br>
+                            <strong>Thiago Teixeira</strong>, and Michael Zink. <u>Evaluating Information-Centric Networks in Disconnected, Intermittent, Low-Bandwidth Environments</u>. In <em>ACM/IEEE Symposium on Architectures for Networking and Communications Systems ANCS, Santa Clara, CA, March 2016.</em>
                         </li>
                         <li class="publication-list">
-                            <b>Thiago Teixeira</b>, and Syed Faraz Hasan. <u>Assessing Electromagnetic Radiation in our Environment</u> . In <em>IEEE Potentials</em> , March 2016.
-                            <br>
+                            <strong>Thiago Teixeira</strong>, and Syed Faraz Hasan. <u>Assessing Electromagnetic Radiation in our Environment</u>. In <em>IEEE Potentials</em> , March 2016.
                         </li>
                     </ul>
-                </ul>
-                <ul>
-                    <b>2015</b>
+                    <strong>2015</strong>
                     <ul>
                         <li class="publication-list">
-                            Andres Marentes, <b>Thiago Teixeira</b> , and Tilman Wolf. <u>Exploring Economic Dynamics in an Internet with Service Choices</u> . In <em>IEEE International Conference on Communications ICC</em> , London, UK, June 2015.
-                            <br>
+                            Andres Marentes, <strong>Thiago Teixeira</strong> , and Tilman Wolf. <u>Exploring Economic Dynamics in an Internet with Service Choices</u>. In <em>IEEE International Conference on Communications ICC</em> , London, UK, June 2015.
                         </li>
                     </ul>
-                </ul>
-                <ul>
-                    <b>2014</b>
+                    <strong>2014</strong>
                     <ul>
                         <li class="publication-list">
-                            Kekai Ku, Tilman Wolf, <b>Thiago Teixeira</b> , and Russel Tessier. <u>System-Level Security for Network Processors with Hardware Monitors</u> . In <em>Proc. of the 51st Design Automation Conference DAC</em> , San Francisco, CA, June 2014.
-                            <br>
+                            Kekai Ku, Tilman Wolf, <strong>Thiago Teixeira</strong> , and Russel Tessier. <u>System-Level Security for Network Processors with Hardware Monitors</u>. In <em>Proc. of the 51st Design Automation Conference DAC</em> , San Francisco, CA, June 2014.
                         </li>
                     </ul>
-                </ul>
-                <ul>
-                    <b>2012</b>
+                    <strong>2012</strong>
                     <ul>
                         <li class="publication-list">
-                            Sumana Das, <b>Thiago Teixeira</b> , and Syed Faraz Hasan. <u>Research Issues related to Trilateration and Fingerprinting Methods: An Experimental Overview of Wi-Fi Positioning System</u> . In <em>IJRWS Wireless Advancements – Green Initiative</em> , 2012.
-                            <br>
+                            Sumana Das, <strong>Thiago Teixeira</strong> , and Syed Faraz Hasan. <u>Research Issues related to Trilateration and Fingerprinting Methods: An Experimental Overview of Wi-Fi Positioning System</u>. In <em>IJRWS Wireless Advancements – Green Initiative</em> , 2012.
                         </li>
                     </ul>
-                </ul>
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="center title" id="courses">Relevant Coursework</h2>
+                <h2 id="courses">Relevant Coursework</h2>
                 <ul>
                     <li class="course-list">Advanced Data Communication </li>
                     <li class="course-list">Cellular Networks </li>
@@ -288,10 +333,11 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="center title" id="award">Awards</h2>
+                <h2 id="award">Awards</h2>
                 <ul>
                     <li class="award-list">Grow with Google Developer Scholarship</li>
                     <li class="award-list">Science without Borders (undergraduate and graduate) - Brazilian Government</li>
@@ -300,15 +346,17 @@
         </div>
     </div>
 
-    <div class="container" id="footer">
-    </div>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">© 2020 Thiago Teixeira</span>
+        </div>
+    </footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js" type="text/javascript"></script>
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-
 </html>
