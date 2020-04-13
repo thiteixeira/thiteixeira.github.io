@@ -26,14 +26,14 @@
     <link rel="stylesheet" href="tt.css">
 
 </head>
-<body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand fixed-top" id="navbar">
+<body data-spy="scroll" data-target="#navbar" data-offset="100">
+    <nav id="navbar" class="navbar navbar-dark bg-dark navbar-expand fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Thiago Teixeira</a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#introduction">Welcome</a>
                     </li>
                     <li class="nav-item">
@@ -134,13 +134,17 @@
             <div class="col-md-12">
                 <h2 id="industry">Industry Experience</h2>
                 <ul>
-                    <li class="career-list"><a href="https://brightcove.com"><b>Brightcove Inc.</b></a> <i>"Software Engineer Intern"</i>, 01/2019 - Present
-                        <br>
+                    <li class="career-list">
+                        <p><a href="https://brightcove.com"><strong>Brightcove Inc.</strong></a> <em>"Software Engineer in Test"</em>, 09/2019 - Present</p>
+                        <p>[Update description]</p>
+                    </li>
+                    <li class="career-list">
+                        <p><a href="https://brightcove.com"><strong>Brightcove Inc.</strong></a> <em>"Software Engineer Intern"</em>, 01/2019 - 06/2019</p>
                         <p>Brightcove is the leader in OVP services. As a software engineer intern at the Gallery team, my main contributions are in the QA and development processes.
                             The technologies used range from Ruby, JavaScript, Jenkins, Jira, and Groovy.</p>
                     </li>
-                    <li class="career-list"><a href="https://www.raytheon.com/ourcompany/bbn"><b>Raytheon BBN Technologies</b></a> <i>"Graduate Research Intern"</i>, 05/2016 - 08/2016
-                        <br>
+                    <li class="career-list">
+                        <p><a href="https://www.raytheon.com/ourcompany/bbn"><strong>Raytheon BBN Technologies</strong></a> <em>"Graduate Research Intern"</em>, 05/2016 - 08/2016</p>
                         <p>The GENI research testbed comprises of dozens of research universities across the US, enabling deep programmability and customization of research experiments. During this internship, I developed the new NDN tutorial, which is used in GENI educational events. In addition, I created the How-To page on Delay Tolerant Networking (DTN) for the GENI platform. Finally, assisted the GENI Summer Camp in Boston, MA and the GENI/Fed-4-Fire Summer Camp in Ghent, Belgium (remotely).</p>
                     </li>
                 </ul>
@@ -345,6 +349,8 @@
             </div>
         </div>
     </div>
+
+    <div class="container" id="footer-space"></div>
 
     <footer class="footer mt-auto py-3">
         <div class="container">

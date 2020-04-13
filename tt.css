@@ -1,5 +1,6 @@
 body {
 	padding-top: 100px;
+	position: relative;
 }
 
 .footer {
@@ -8,4 +9,8 @@ body {
 
 .col-md-12 {
 	margin-top: 40px !important;
+}
+
+#footer-space {
+	margin-bottom: 200px;
 }
