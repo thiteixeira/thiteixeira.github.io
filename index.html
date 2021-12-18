@@ -1,377 +1,732 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Thiago Teixeira's Professional Web Page">
-    <meta name="keywords" content="PhD,Linux,Networking,TCP/IP,DNS">
-    <meta name="author" content="Thiago Teixeira">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Thiago Teixeira's Web Page" />
+    <meta
+      name="keywords"
+      content="Web development, Typescript, React, Networking"
+    />
+    <meta name="author" content="Thiago Teixeira" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Thiago Teixeira</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74710912-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-74710912-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-74710912-1');
+      gtag("config", "UA-74710912-1");
     </script>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link rel="stylesheet" href="tt.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="tt.css" />
+  </head>
 
-</head>
-<body data-spy="scroll" data-target="#navbar" data-offset="100">
+  <body data-spy="scroll" data-target="#navbar" data-offset="100">
     <nav id="navbar" class="navbar navbar-dark bg-dark navbar-expand fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Thiago Teixeira</a>
+      <div class="container">
+        <a class="navbar-brand" href="#">Thiago Teixeira</a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#introduction">Welcome</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#industry">Industry</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#teaching">Teaching</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#research">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#publication">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#courses">Relevant Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#award">Awards</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#introduction">Welcome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#industry">Industry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#teaching">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publication">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Relevant Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#award">Awards</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <div class="container" id="profile">
-        <div class="row">
-            <div class="col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="fig/profile1.jpg" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="fig/profile2.jpg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="fig/profile3.jpg" alt="Third slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+    <section class="container" id="profile">
+      <div class="row">
+        <div class="col-md-6">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="fig/profile1.jpg"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="fig/profile2.jpg"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="fig/profile3.jpg"
+                  alt="Third slide"
+                />
+              </div>
             </div>
-            <div class="col-md-6" id="introduction">
-                <h2>Welcome!</h2>
-                <p class="lead">I received my B.Eng. in Electrical Engineering with emphasis on Telecommunications and Networks from
-                    <a href="http://www.unisinos.br/global/en/">Unisinos University</a> in Southern Brazil.
-                    I also studied one year at the College of Information and Communication Engineering at
-                    <a href="http://www.skku.edu">Sungkyunkwan University</a> in South Korea.
-                    Recently, I received a PhD in Computer Engineering from the
-                    <a href="http://www.umass.edu/">University of Massachusetts Amherst</a>.
-                </p>
-
-                <p> My PhD research focused on <a href="https://trac.ietf.org/trac/irtf/wiki/icnrg">Information-Centric Networking (ICN)</a>
-                    Wireless Communications, and Internet Economics.
-                </p>
-                <p>
-                    <i>tteixeira at umass dot edu</i>
-                </p>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="tt_resume_2020.pdf"><i class="icon ai ai-cv-square"></i></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://scholar.google.com/citations?user=TwEjy2cAAAAJ&hl=en"><i class="icon ai ai-google-scholar-square ai-3x"></i></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://www.linkedin.com/in/tteixeira1/"><i class="icon fa fa-linkedin"></i></a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://github.com/thiteixeira/"><i class="icon fa fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="industry">Industry Experience</h2>
-                <ul>
-                    <li class="career-list">
-                        <p><a href="https://brightcove.com"><strong>Brightcove Inc.</strong></a> <em>"Software Engineer in Test"</em>, 09/2019 - Present</p>
-                        <p>The Brightcove Live team is responsible for the streaming services of corporations all over the world. As a Software Engineer in Test,
-                        I am responsible for assuring that the product is in its best shape for our customers when the time to go live comes. We achieve that by using
-                        a mix of automation testing (written in Javascript) as well as manual testing.</p>
-                        <p>So far, I had the opportunity to participate in several new products architecture design and review, as well as propose several improvements to the products.</p>
-                    </li>
-                    <li class="career-list">
-                        <p><a href="https://brightcove.com"><strong>Brightcove Inc.</strong></a> <em>"Software Engineer Intern"</em>, 01/2019 - 06/2019</p>
-                        <p>Brightcove is the leader in OVP services. As a software engineer intern at the Gallery team, my main contributions are in the QA and development processes.
-                            The technologies used range from JavaScript, Handlebars, Ruby, Jenkins, Jira, and Groovy.</p>
-                    </li>
-                    <li class="career-list">
-                        <p><a href="https://www.raytheon.com/ourcompany/bbn"><strong>Raytheon BBN Technologies</strong></a> <em>"Graduate Research Intern"</em>, 05/2016 - 08/2016</p>
-                        <p>The GENI research testbed comprises of dozens of research universities across the US, enabling deep programmability and customization of research experiments. 
-                            During this internship, I developed the new NDN tutorial, which is used in GENI educational events. In addition, I created the How-To page on Delay Tolerant Networking (DTN) 
-                            for the GENI platform. Finally, assisted the GENI Summer Camp in Boston, MA and the GENI/Fed-4-Fire Summer Camp in Ghent, Belgium (remotely).</p>
-                    </li>
-                </ul>
+        <div class="col-md-6" id="introduction">
+          <h2>Hi there!</h2>
+          <p class="lead">
+            Thanks for stopping by. This page is due to a re-write, but in the
+            meantime enjoy :)
+          </p>
+          <p>
+            I have a Bachelors degree in Electrical Engineering from
+            <a href="http://www.unisinos.br/global/en/">Unisinos University</a>
+            and a Ph.D. in Computer Engineering from the
+            <a href="http://www.umass.edu/"
+              >University of Massachusetts Amherst</a
+            >. I also studied one year at the College of Information and
+            Communication Engineering at
+            <a href="http://www.skku.edu">Sungkyunkwan University</a> in South
+            Korea.
+          </p>
+          <p>
+            I currently work as a software engineer in the Live platform at
+            Brightcove where I help build new features into the module.
+          </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="tt_resume_2020.pdf"
+                  ><i class="icon ai ai-cv-square"></i
+                ></a>
+              </div>
+              <div class="col-md-3">
+                <a
+                  href="https://scholar.google.com/citations?user=TwEjy2cAAAAJ&hl=en"
+                  ><i class="icon ai ai-google-scholar-square ai-3x"></i
+                ></a>
+              </div>
+              <div class="col-md-3">
+                <a href="https://www.linkedin.com/in/tteixeira1/"
+                  ><i class="icon fa fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="col-md-3">
+                <a href="https://github.com/thiteixeira/"
+                  ><i class="icon fa fa-github"></i
+                ></a>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="education">Education</h2>
-                <ul>
-                    <li class="education-list">Ph.D. in <a href="http://ece.umass.edu/">Computer Engineering, University of Massachusetts Amherst</a></li>
-                    <li class="education-list">B.S. in <a href="http://www.unisinos.br/global/en/">Electrical Engineering (Networks), Unisinos University</a></li>
-                    <li class="education-list">Exchange student <a href="http://www.skku.edu">Sungkyunkwan University</a></li>
-                </ul>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="industry">Industry Experience</h2>
+          <ul>
+            <li class="career-list">
+              <p>
+                <a href="https://brightcove.com"
+                  ><strong>Brightcove Inc.</strong></a
+                >
+                <em>"Software Engineer"</em>, 11/2020 - Present
+              </p>
+              <ul>
+                <li>
+                  Develop and scope new features in React and Typescript for the
+                  Live module.
+                </li>
+                <li>
+                  Work across teams to improve the company's internal design
+                  system.
+                </li>
+                <li>
+                  Collaborate with Brightcove Research, participating in
+                  conferences and community talks (such as Boston Video Dev and
+                  Demuxed).
+                </li>
+              </ul>
+            </li>
+            <li class="career-list">
+              <p>
+                <a href="https://brightcove.com"
+                  ><strong>Brightcove Inc.</strong></a
+                >
+                <em>"Software Engineer in Test"</em>, 09/2019 - 11/2020
+              </p>
+              <ul>
+                <li>
+                  Design and develop automated and manual tests for the Live
+                  platform.
+                </li>
+                <li>
+                  Groomed customer bugs, coding and shipping solutions for small
+                  issues.
+                </li>
+                <li>
+                  Awarded Best Customer Focus project on internal Hack Week
+                  2020.
+                </li>
+              </ul>
+            </li>
+            <li class="career-list">
+              <p>
+                <a href="https://brightcove.com"
+                  ><strong>Brightcove Inc.</strong></a
+                >
+                <em>"Software Engineer Intern"</em>, 01/2019 - 06/2019
+              </p>
+              <ul>
+                <li>
+                  Migrated and expanded automation tests to Testcafe (Javascript
+                  based) for the Gallery and Live teams.
+                </li>
+                <li>
+                  Worked on Jira tickets, shipping code to production using
+                  React.
+                </li>
+                <li>Helped maintain Jenkins pipelines.</li>
+              </ul>
+            </li>
+            <li class="career-list">
+              <p>
+                <a href="https://www.raytheon.com/ourcompany/bbn"
+                  ><strong>Raytheon BBN Technologies</strong></a
+                >
+                <em>"Graduate Research Intern"</em>, 05/2016 - 08/2016
+              </p>
+              <ul>
+                <li>
+                  Developed GENI Research Testbed tutorials and scripts that are
+                  used by universities across the US.
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="teaching">Teaching Experience</h2>
-                <ul>
-                    <li class="education-list"><a href="http://www.ecs.umass.edu/ece241/">Data Structures</a> (Python) as T.A.</li>
-                    <li class="education-list"><a href="http://www.ecs.umass.edu/ece/ece122/">Introduction to Programming</a> (Java) as T.A.</li>
-                    <li class="education-list">Freshman Seminar as Instructor (2015 and 2018)</li>
-                    <li class="education-list">Security Engineering as T.A.</li>
-                </ul>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="education">Education</h2>
+          <ul>
+            <li class="education-list">
+              Ph.D. in
+              <a href="http://ece.umass.edu/"
+                >Computer Engineering, University of Massachusetts Amherst</a
+              >
+            </li>
+            <li class="education-list">
+              B.S. in
+              <a href="http://www.unisinos.br/global/en/"
+                >Electrical Engineering (Networks), Unisinos University</a
+              >
+            </li>
+            <li class="education-list">
+              Exchange student
+              <a href="http://www.skku.edu">Sungkyunkwan University</a>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="research">Research Experience</h2>
-                <ul>
-                    <li class="research-list"><b><a href="./icn-adhoc.html">Offloading Cellular Traffic from Next-Generation Cellular Base Stations</a> </b></li>
-                    The soaring number of mobile devices, coupled with the increase in traffic, is posing a significant challenge to cellular networks. Network operators have to deploy more base stations to cope with the load and user's expectations; however, this approach increases complexity and it's hard to manage. We propose M2M communication that applies Information-Centric Networking (ICN) to fetch content from nearby peers prior to sending the request to the RAN. In this ongoing research, we expect to successfully fetch partial contents from the MANET, ultimately offloading base stations.
-                    <li class="research-list"><b>Information-Centric Networking in Disconnected, Intermittent, and Low-Bandwidth (DIL) Environments </b></li>
-                    Conventional TCP/IP struggles as Mobile Ad hoc networks in DIL environments experience occasional disconnections and energy constraints. This work investigates ICN caching and forwarding strategies in MANET instead of commonly used protocols, such as OLSR and AODV. We developed a cross-layer approach that improves latency in ICN-MANET.
-                    <li class="research-list"><b><a href="https://github.com/lmarent/EconomicSimulator">Economics of a Future Internet with Choices</a> </b></li>
-                    In future Internet architectures, customers will be able to choose network services with a finer granularity than the current lengthy and costly contracts. We envision that these interactions between the different actors will be done in marketplaces for network services. We developed an agent-based simulator to study the economic outcomes on a variety of scenarios, showing that monopolistic providers do not have incentive to innovate. In addition, innovative providers can thrive in a competitive market where race to the bottom is expected.
-                </ul>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="teaching">Teaching Experience</h2>
+          <ul>
+            <li class="education-list">
+              <a href="http://www.ecs.umass.edu/ece241/">Data Structures</a>
+              (Python) as T.A.
+            </li>
+            <li class="education-list">
+              <a href="http://www.ecs.umass.edu/ece/ece122/"
+                >Introduction to Programming</a
+              >
+              (Java) as T.A.
+            </li>
+            <li class="education-list">
+              Freshman Seminar as Instructor (2015 and 2018)
+            </li>
+            <li class="education-list">Security Engineering as T.A.</li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="projects">Other Projects</h2>
-                <ul>
-                    <li class=project-list>
-                        <strong>Slack Bot</strong>
-                        <p><a href="https://github.com/thiteixeira/boston-info">Boston City Services Slack Bot</a></p>
-                    </li>
-                    <li class="project-list">
-                        <strong>Android </strong>
-                        <p><a href="https://github.com/thiteixeira/Android-Projects">A couple of Android Apps</a> (with screenshots)</p>
-                    </li>
-                    <li class="project-list">
-                        <strong>Crawling the Web</strong>
-                        <p><a href="https://github.com/thiteixeira/Python/blob/master/web_scraping/webCrawler.py">Python Web Crawler</a> (Fetching Boston's Craigslist apartment rentals under $2000 using Python <em>requests</em> and <em>bs4</em> libraries)</p>
-                    </li>
-                    <li class="project-list">
-                        <strong>Social Media</strong>
-                        <p><a href="https://github.com/thiteixeira/Python/blob/master/server.py">Facebook Messenger SimpleBot</a> (Uses Flask and Ngrok)</p>
-                        <p><a href="https://github.com/thiteixeira/Python/blob/master/web_scraping/twitterScraper.py">Getting Twitter's trending topics</a></p>
-                    </li>
-                    <li class="project-list">
-                        <strong>FinTech </strong>
-                        <p><a href="https://github.com/thiteixeira/Python/tree/master/finTech">Python code to get the S&P 500 companies using the Robinhood API</a></p>
-                    </li>
-                    <li class="project-list">
-                        <strong>GENI Research Testbed</strong>
-                        <p><a href="http://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/jacks/GettingStarted_PartII_ndn/Procedure">Named-Data Networking Tutorial</a></p>
-                        <p><a href="http://groups.geni.net/geni/wiki/HowTo/DelayTolerantNetworking">Delay-Tolerant Networking How-To</a></p>
-                    </li>
-                    <li class="project-list">
-                        <strong>Indoor navigation using fingerprinting</strong>
-                        <p><a href="https://www.people.umass.edu/tteixeira/Percept_Final_Report.pdf">Indoor navigation</a></p>
-                    </li>
-                    <li class="project-list">
-                        <strong>VLSI </strong>
-                        <p><a href="https://www.people.umass.edu/tteixeira/vlsi_Finalreport.pdf">Exploring Voltage Scaling Techniques in Embedded Processors Hardware Monitors </a></p>
-                    </li>
-                    <li class="project-list">
-                        <strong>Networking tools</strong>
-                        <p><a href="https://tt-network-blog.herokuapp.com/">A sample blog deployed on Heroku</a></p>
-                    </li>
-                    <li class="project-list">
-                        <strong>Travel App </strong>
-                        <p>A travel app written in Node.js using the Deutsche Bahn API to find trips between German cities</p>
-                    </li>
-
-                </ul>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="research">Research Experience</h2>
+          <ul>
+            <li class="research-list">
+              <b
+                ><a href="./icn-adhoc.html"
+                  >Offloading Cellular Traffic from Next-Generation Cellular
+                  Base Stations</a
+                >
+              </b>
+            </li>
+            The soaring number of mobile devices, coupled with the increase in
+            traffic, is posing a significant challenge to cellular networks.
+            Network operators have to deploy more base stations to cope with the
+            load and user's expectations; however, this approach increases
+            complexity and it's hard to manage. We propose M2M communication
+            that applies Information-Centric Networking (ICN) to fetch content
+            from nearby peers prior to sending the request to the RAN. In this
+            ongoing research, we expect to successfully fetch partial contents
+            from the MANET, ultimately offloading base stations.
+            <li class="research-list">
+              <b
+                >Information-Centric Networking in Disconnected, Intermittent,
+                and Low-Bandwidth (DIL) Environments
+              </b>
+            </li>
+            Conventional TCP/IP struggles as Mobile Ad hoc networks in DIL
+            environments experience occasional disconnections and energy
+            constraints. This work investigates ICN caching and forwarding
+            strategies in MANET instead of commonly used protocols, such as OLSR
+            and AODV. We developed a cross-layer approach that improves latency
+            in ICN-MANET.
+            <li class="research-list">
+              <b
+                ><a href="https://github.com/lmarent/EconomicSimulator"
+                  >Economics of a Future Internet with Choices</a
+                >
+              </b>
+            </li>
+            In future Internet architectures, customers will be able to choose
+            network services with a finer granularity than the current lengthy
+            and costly contracts. We envision that these interactions between
+            the different actors will be done in marketplaces for network
+            services. We developed an agent-based simulator to study the
+            economic outcomes on a variety of scenarios, showing that
+            monopolistic providers do not have incentive to innovate. In
+            addition, innovative providers can thrive in a competitive market
+            where race to the bottom is expected.
+          </ul>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="publication">Publications</h2>
-                    <strong>2019</strong>
-                    <ul>
-                        <li class="publication-list">
-                            <strong>Thiago Teixeira</strong>. <u>Service Competition and Data-Centric Protocols for Internet Access</u>. University of Massachusetts Amherst, September 2019.
-                        </li>
-                        <li class="publication-list">
-                            <strong>Thiago Teixeira</strong>, Rajvardhan Deshmukh, and Michael Zink. <u>Cross-Layer Assisted Forwarding Strategy for Opportunistic Communication</u>. In <em>WoWMoM.</em> Washington, DC, June 2019.
-                        </li>
-                    </ul>
-                    <strong>2018</strong>
-                    <ul>
-                        <li class="publication-list">
-                            <strong>Thiago Teixeira</strong>, Rajvardhan Deshmukh, and Michael Zink. <u>Increasing Network Resiliency via Data-Centric Offloading</u>. In <em>EN4PPDR, a workshop of WiMOB.</em> Cyprus, October 2018.
-                        </li>
-                    </ul>
-                    <strong>2017</strong>
-                    <ul>
-                        <li class="publication-list">
-                            Andres Marentes, Jie-Kai Yang, <strong>Thiago Teixeira</strong>, and Tilman Wolf. <u>A Marketplace for Interdomain Routing and Its Economic Outcomes</u>. In <em>ACM CoNEXT Student Workshop.</em> Seoul, KOR, December 2017. <a href="papers/abs-esdx.pdf">[pdf]</a>
-                        </li>
-                        <li class="publication-list">
-                            <strong>Thiago Teixeira</strong>, Andres Marentes, and Tilman Wolf. <u>Economic Incentives in Virtualized Access Networks</u>. In <em>IEEE International Conference on Communications ICC</em> , Paris, FRA, May 2017. <a href="https://ieeexplore.ieee.org/document/7996957/">[pdf]</a>
-                        </li>
-                    </ul>
-                    <strong>2016</strong>
-                    <ul>
-                        <li class="publication-list">
-                            <strong>Thiago Teixeira</strong>, Andres Marentes, and Tilman Wolf. <u>Enabling Internet Economics Research of Future Internet Architectures using GENI</u>. In <em>GENI NICE Workshop of CoNext 2016</em> . Irvine, CA, December 2016.
-                        </li>
-                        <li class="publication-list">
-                            Ahmed Abdelhadi, Felipe Rechia, Arvind Narayanan, <strong>Thiago Teixeira</strong>, Ricardo Lent, Driss Benhaddou, Hyunwoo Lee, and T Charles Clancy. <u>Position Estimation of Robotic Mobile Nodes in Wireless Testbed using GENI</u>. In <em>Proc. IEEE Systems Conference SysCon</em> , Orlando, FL, April 2016.
-                        </li>
-                        <li class="publication-list">
-                            <strong>Thiago Teixeira</strong>, and Michael Zink. <u>Evaluating Information-Centric Networks in Disconnected, Intermittent, Low-Bandwidth Environments</u>. In <em>ACM/IEEE Symposium on Architectures for Networking and Communications Systems ANCS, Santa Clara, CA, March 2016.</em>
-                        </li>
-                        <li class="publication-list">
-                            <strong>Thiago Teixeira</strong>, and Syed Faraz Hasan. <u>Assessing Electromagnetic Radiation in our Environment</u>. In <em>IEEE Potentials</em> , March 2016.
-                        </li>
-                    </ul>
-                    <strong>2015</strong>
-                    <ul>
-                        <li class="publication-list">
-                            Andres Marentes, <strong>Thiago Teixeira</strong> , and Tilman Wolf. <u>Exploring Economic Dynamics in an Internet with Service Choices</u>. In <em>IEEE International Conference on Communications ICC</em> , London, UK, June 2015.
-                        </li>
-                    </ul>
-                    <strong>2014</strong>
-                    <ul>
-                        <li class="publication-list">
-                            Kekai Ku, Tilman Wolf, <strong>Thiago Teixeira</strong> , and Russel Tessier. <u>System-Level Security for Network Processors with Hardware Monitors</u>. In <em>Proc. of the 51st Design Automation Conference DAC</em> , San Francisco, CA, June 2014.
-                        </li>
-                    </ul>
-                    <strong>2012</strong>
-                    <ul>
-                        <li class="publication-list">
-                            Sumana Das, <strong>Thiago Teixeira</strong> , and Syed Faraz Hasan. <u>Research Issues related to Trilateration and Fingerprinting Methods: An Experimental Overview of Wi-Fi Positioning System</u>. In <em>IJRWS Wireless Advancements – Green Initiative</em> , 2012.
-                        </li>
-                    </ul>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="projects">Weekend Fun Projects</h2>
+          <ul>
+            <li class="project-list">
+              <strong>Slack Bot</strong>
+              <p>
+                <a href="https://github.com/thiteixeira/boston-info"
+                  >Boston City Services Slack Bot</a
+                >
+              </p>
+            </li>
+            <li class="project-list">
+              <strong>Android </strong>
+              <p>
+                <a href="https://github.com/thiteixeira/Android-Projects"
+                  >A couple of Android Apps</a
+                >
+                (with screenshots)
+              </p>
+            </li>
+            <li class="project-list">
+              <strong>Crawling the Web</strong>
+              <p>
+                <a
+                  href="https://github.com/thiteixeira/Python/blob/master/web_scraping/webCrawler.py"
+                  >Python Web Crawler</a
+                >
+                (Fetching Boston's Craigslist apartment rentals under $2000
+                using Python <em>requests</em> and <em>bs4</em> libraries)
+              </p>
+            </li>
+            <li class="project-list">
+              <strong>Social Media</strong>
+              <p>
+                <a
+                  href="https://github.com/thiteixeira/Python/blob/master/server.py"
+                  >Facebook Messenger SimpleBot</a
+                >
+                (Uses Flask and Ngrok)
+              </p>
+              <p>
+                <a
+                  href="https://github.com/thiteixeira/Python/blob/master/web_scraping/twitterScraper.py"
+                  >Getting Twitter's trending topics</a
+                >
+              </p>
+            </li>
+            <!-- <li class="project-list">
+              <strong>FinTech </strong>
+              <p>
+                <a
+                  href="https://github.com/thiteixeira/Python/tree/master/finTech"
+                  >Python code to get the S&P 500 companies using the Robinhood
+                  API</a
+                >
+              </p>
+            </li> -->
+            <li class="project-list">
+              <strong>GENI Research Testbed</strong>
+              <p>
+                <a
+                  href="http://groups.geni.net/geni/wiki/GENIExperimenter/Tutorials/jacks/GettingStarted_PartII_ndn/Procedure"
+                  >Named-Data Networking Tutorial</a
+                >
+              </p>
+              <p>
+                <a
+                  href="http://groups.geni.net/geni/wiki/HowTo/DelayTolerantNetworking"
+                  >Delay-Tolerant Networking How-To</a
+                >
+              </p>
+            </li>
+            <!-- <li class="project-list">
+              <strong>Indoor navigation using fingerprinting</strong>
+              <p>
+                <a
+                  href="https://www.people.umass.edu/tteixeira/Percept_Final_Report.pdf"
+                  >Indoor navigation</a
+                >
+              </p>
+            </li> -->
+            <li class="project-list">
+              <strong>VLSI </strong>
+              <p>
+                <a
+                  href="https://www.people.umass.edu/tteixeira/vlsi_Finalreport.pdf"
+                  >Exploring Voltage Scaling Techniques in Embedded Processors
+                  Hardware Monitors
+                </a>
+              </p>
+            </li>
+            <!-- <li class="project-list">
+              <strong>Networking tools</strong>
+              <p>
+                <a href="https://tt-network-blog.herokuapp.com/"
+                  >A sample blog deployed on Heroku</a
+                >
+              </p>
+            </li>
+            <li class="project-list">
+              <strong>Travel App </strong>
+              <p>
+                A travel app written in Node.js using the Deutsche Bahn API to
+                find trips between German cities
+              </p>
+            </li> -->
+          </ul>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="courses">Relevant Coursework</h2>
-                <ul>
-                    <li class="course-list">Advanced Data Communication </li>
-                    <li class="course-list">Cellular Networks </li>
-                    <li class="course-list">Computer Algorithms </li>
-                    <li class="course-list">Computer Networks </li>
-                    <li class="course-list">High-Speed Broadband Networks </li>
-                    <li class="course-list">Microwave Engineering </li>
-                    <li class="course-list">Mobile Communications </li>
-                    <li class="course-list">Probability and Random Process </li>
-                    <li class="course-list">RF Circuits </li>
-                    <li class="course-list">Security Engineering </li>
-                    <li class="course-list">Statistical Inference and Random Processes </li>
-                    <li class="course-list">Telephony Networks </li>
-                    <li class="course-list">The Business Foundations Series for Scientists and Engineers </li>
-                    <li class="course-list">Trustworthy Computing </li>
-                    <li class="course-list">VLSI Design Principles </li>
-                </ul>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="publication">Publications</h2>
+          <p>
+            See
+            <a
+              href="https://scholar.google.com/citations?user=TwEjy2cAAAAJ&hl=en"
+              >Google Scholar</a
+            >
+            for a complete and updated list.
+          </p>
+          <strong>2019</strong>
+          <ul>
+            <li class="publication-list">
+              <strong>Thiago Teixeira</strong>.
+              <u
+                >Service Competition and Data-Centric Protocols for Internet
+                Access</u
+              >. University of Massachusetts Amherst, September 2019.
+            </li>
+            <li class="publication-list">
+              <strong>Thiago Teixeira</strong>, Rajvardhan Deshmukh, and Michael
+              Zink.
+              <u
+                >Cross-Layer Assisted Forwarding Strategy for Opportunistic
+                Communication</u
+              >. In <em>WoWMoM.</em> Washington, DC, June 2019.
+            </li>
+          </ul>
+          <strong>2018</strong>
+          <ul>
+            <li class="publication-list">
+              <strong>Thiago Teixeira</strong>, Rajvardhan Deshmukh, and Michael
+              Zink.
+              <u>Increasing Network Resiliency via Data-Centric Offloading</u>.
+              In <em>EN4PPDR, a workshop of WiMOB.</em>
+              Cyprus, October 2018.
+            </li>
+          </ul>
+          <strong>2017</strong>
+          <ul>
+            <li class="publication-list">
+              Andres Marentes, Jie-Kai Yang, <strong>Thiago Teixeira</strong>,
+              and Tilman Wolf.
+              <u
+                >A Marketplace for Interdomain Routing and Its Economic
+                Outcomes</u
+              >. In <em>ACM CoNEXT Student Workshop.</em> Seoul, KOR, December
+              2017. <a href="papers/abs-esdx.pdf">[pdf]</a>
+            </li>
+            <li class="publication-list">
+              <strong>Thiago Teixeira</strong>, Andres Marentes, and Tilman
+              Wolf. <u>Economic Incentives in Virtualized Access Networks</u>.
+              In <em>IEEE International Conference on Communications ICC</em> ,
+              Paris, FRA, May 2017.
+              <a href="https://ieeexplore.ieee.org/document/7996957/">[pdf]</a>
+            </li>
+          </ul>
+          <strong>2016</strong>
+          <ul>
+            <li class="publication-list">
+              <strong>Thiago Teixeira</strong>, Andres Marentes, and Tilman
+              Wolf.
+              <u
+                >Enabling Internet Economics Research of Future Internet
+                Architectures using GENI</u
+              >. In <em>GENI NICE Workshop of CoNext 2016</em> . Irvine, CA,
+              December 2016.
+            </li>
+            <li class="publication-list">
+              Ahmed Abdelhadi, Felipe Rechia, Arvind Narayanan,
+              <strong>Thiago Teixeira</strong>, Ricardo Lent, Driss Benhaddou,
+              Hyunwoo Lee, and T Charles Clancy.
+              <u
+                >Position Estimation of Robotic Mobile Nodes in Wireless Testbed
+                using GENI</u
+              >. In <em>Proc. IEEE Systems Conference SysCon</em> , Orlando, FL,
+              April 2016.
+            </li>
+            <li class="publication-list">
+              <strong>Thiago Teixeira</strong>, and Michael Zink.
+              <u
+                >Evaluating Information-Centric Networks in Disconnected,
+                Intermittent, Low-Bandwidth Environments</u
+              >. In
+              <em
+                >ACM/IEEE Symposium on Architectures for Networking and
+                Communications Systems ANCS, Santa Clara, CA, March 2016.</em
+              >
+            </li>
+            <li class="publication-list">
+              <strong>Thiago Teixeira</strong>, and Syed Faraz Hasan.
+              <u>Assessing Electromagnetic Radiation in our Environment</u>. In
+              <em>IEEE Potentials</em> , March 2016.
+            </li>
+          </ul>
+          <strong>2015</strong>
+          <ul>
+            <li class="publication-list">
+              Andres Marentes, <strong>Thiago Teixeira</strong> , and Tilman
+              Wolf.
+              <u
+                >Exploring Economic Dynamics in an Internet with Service
+                Choices</u
+              >. In
+              <em>IEEE International Conference on Communications ICC</em> ,
+              London, UK, June 2015.
+            </li>
+          </ul>
+          <strong>2014</strong>
+          <ul>
+            <li class="publication-list">
+              Kekai Ku, Tilman Wolf, <strong>Thiago Teixeira</strong> , and
+              Russel Tessier.
+              <u
+                >System-Level Security for Network Processors with Hardware
+                Monitors</u
+              >. In
+              <em>Proc. of the 51st Design Automation Conference DAC</em> , San
+              Francisco, CA, June 2014.
+            </li>
+          </ul>
+          <strong>2012</strong>
+          <ul>
+            <li class="publication-list">
+              Sumana Das, <strong>Thiago Teixeira</strong> , and Syed Faraz
+              Hasan.
+              <u
+                >Research Issues related to Trilateration and Fingerprinting
+                Methods: An Experimental Overview of Wi-Fi Positioning System</u
+              >. In <em>IJRWS Wireless Advancements – Green Initiative</em> ,
+              2012.
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 id="award">Awards</h2>
-                <ul>
-                    <li class="award-list">Grow with Google Developer Scholarship</li>
-                    <li class="award-list">Science without Borders (undergraduate and graduate) - Brazilian Government</li>
-                </ul>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="courses">Relevant Coursework</h2>
+          <ul>
+            <li class="course-list">Advanced Data Communication</li>
+            <li class="course-list">Cellular Networks</li>
+            <li class="course-list">Computer Algorithms</li>
+            <li class="course-list">Computer Networks</li>
+            <li class="course-list">High-Speed Broadband Networks</li>
+            <li class="course-list">Microwave Engineering</li>
+            <li class="course-list">Mobile Communications</li>
+            <li class="course-list">Probability and Random Process</li>
+            <li class="course-list">RF Circuits</li>
+            <li class="course-list">Security Engineering</li>
+            <li class="course-list">
+              Statistical Inference and Random Processes
+            </li>
+            <li class="course-list">Telephony Networks</li>
+            <li class="course-list">
+              The Business Foundations Series for Scientists and Engineers
+            </li>
+            <li class="course-list">Trustworthy Computing</li>
+            <li class="course-list">VLSI Design Principles</li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="award">Awards</h2>
+          <ul>
+            <li class="award-list">
+              Best Customer Focus project. Brightcove Hack Week 2020
+            </li>
+            <li class="award-list">Grow with Google Developer Scholarship</li>
+            <li class="award-list">
+              Science without Borders (undergraduate and graduate) - Brazilian
+              Government
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <div class="container" id="footer-space"></div>
 
     <footer class="footer mt-auto py-3">
-        <div class="container">
-            <span class="text-muted">© 2020 Thiago Teixeira</span>
-        </div>
+      <div class="container">
+        <span class="text-muted">© 2022 Thiago Teixeira</span>
+      </div>
     </footer>
 
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
